@@ -56,28 +56,24 @@ footer {
 }
 
 
-@media  screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   header {
     width: 100%;
   }
 
   main {
     width: 100%;
+    display: block;
   }
 
-  .step-img1 {
+  .step-box {
     width: 90%;
-    margin-top: 50px;
+    margin: 0 auto;
     margin-bottom: 20px;
   }
 
-  .step-img2 {
-    width: 90%;
-    margin: 20px 0;
-  }
-
-  .step-img3 {
-    width: 90%;
-    margin: 20px 0 50px;
+  .step-box:last-child {
+    margin: 0 auto;
+    margin-bottom: 0;
   }
 }
